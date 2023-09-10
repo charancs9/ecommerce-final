@@ -1,0 +1,768 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ body {
+     background-color: rgb(233, 233, 233);
+ }
+
+ .main {
+     display: grid;
+     grid-template-columns: 1fr 5fr 1fr;
+     margin-top: 50px;
+ }
+
+ .logo>h1 {
+     margin-left: 100px;
+     font-size: 40px;
+     color: blue;
+ }
+
+ a {
+    
+     color: black;
+     font-size: 16px;
+     margin-left:90px;
+
+ }
+
+ nav {
+     margin: 13px;
+ }
+
+ .icons>i {
+     padding: 10px 10px;
+     font-size: 20px;
+     color: black;
+ }
+
+ /*----------------------------------------------------------Banner--------------------------------------------------------------------------------*/
+
+ .banner>img {
+     width: 100%;
+     height: 350px;
+ }
+
+ .main-content {
+     text-align: center;
+     position: relative;
+     top: -250px;
+ }
+
+ .content>h1 {
+     font-size: 35px;
+ }
+
+ .content>p {
+     line-height: 25px;
+     margin-top: 10px;
+ }
+
+ .center>button {
+     padding: 5px 20px;
+     margin-top: 10px;
+ }
+
+ .color {
+     color: orangered;
+ }
+
+ .features {
+     text-align: center;
+     margin-top: -100px;
+/* -------------------------------------------------------------first-image -----------------------------------------------------------------------*/
+ }
+
+ .firstimage {
+     text-align: center;
+     width: 300px;
+     padding: 10px;
+     margin-left: 80px;
+     background-color: white;
+
+ }
+
+ .firstimage>button {
+     width: 100px;
+     margin-top: 15px;
+     padding: 5px 10px;
+
+ }
+
+ .fresh {
+     font-size: 20px;
+     margin-left: -10px;
+ }
+
+ .c {
+     margin-left: 25px;
+ }
+
+ /*---------------------------------------------------------------second-image --------------------------------------------------------------------*/
+ .second-image {
+     text-align: center;
+     width: 300px;
+     padding: 10px;
+     background-color: white;
+
+ }
+
+ .free {
+     font-size: 25px;
+     margin-left: 45px;
+ }
+
+ .d {
+     margin-left: 25px;
+ }
+
+ .second-image>button {
+     width: 100px;
+     margin-top: 5px;
+     padding: 5px 10px;
+ }
+
+ .second-image {
+     margin-left: 50px;
+
+ }
+
+ /* ---------------------------------------------------------------third-image --------------------------------------------------------------------*/
+ .pay {
+     font-size: 25px;
+     margin-left: 25px;
+ }
+
+ .dol {
+     margin-left: 25px;
+ }
+
+ .third-image>button {
+     width: 100px;
+     margin-top: 20px;
+     padding: 5px 10px;
+ }
+
+ .third-image {
+     text-align: center;
+     width: 300px;
+     padding: 10px;
+     background-color: white;
+ }
+
+ .firstrow {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin: 50px 150px;
+ }
+
+ /* -----------------------------------------------------------------------last--------------------------------------------------------------------*/
+ /* ----------------------------------------------------------------------CAPTION----------------------------------------------------------------- */
+
+
+ .products-color {
+     color: orangered;
+ }
+
+ .products-middle {
+     text-align: center;
+     font-size: 20px;
+/* -------------------------------------------------------------------2ND ROW 1ST IMAGE----------------------------------------------------------- */
+
+ }
+
+ .cabbage>img {
+     width: 250px;
+     height: 250px;
+ }
+
+
+ .cabbage>button {
+     width: 100px;
+     margin-top: -20px;
+     padding: 5px 10px;
+
+ }
+
+ .cabbage {
+     background-color: white;
+     margin-right: 75px;
+     text-align: center;
+     margin-left: -25px;
+
+ }
+
+ /*----------------------------------------------------------------2ND ROW 2ND IMAGE-------------------------------------------------------------- */
+ .orange>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .orange>button {
+     width: 100px;
+     padding: 5px 10px;
+     margin-bottom: 25px;
+
+ }
+
+ .orange {
+     text-align: center;
+     width: 300px;
+     background-color: white;
+     margin-left: 2px;
+
+
+ }
+
+ /* ---------------------------------------------------------------2ND ROW 3RD IMAGE-------------------------------------------------------------- */
+ .onions>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .onions>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 10px;
+
+ }
+
+ .onions {
+     margin-right: 250px;
+     text-align: center;
+     width: 310px;
+ }
+
+ .onions {
+     border: 0px;
+     background-color: white;
+ }
+
+ .secondrow {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 250px;
+     margin-top: 50px;
+
+ }
+
+ /* ------------------------------------------------------------------2ND ROW FINISHED------------------------------------------------------------ */
+ /* ------------------------------------------------------------------3RD ROW 1ST IMAGE----------------------------------------------------------- */
+ .lemon {
+     text-align: center;
+     width: 310px;
+     margin-left: 60px;
+     background-color: white;
+     padding: 20px;
+
+ }
+
+ .lemon>img {
+     width: 250px;
+     height: 250px;
+ }
+
+
+ .lemon>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 10px;
+ }
+
+ /* ------------------------------------------------------------THIRD ROW 2ND IMAGE POTATO---------------------------------------------------------*/
+ .potato {
+
+     text-align: center;
+     width: 310px;
+     background-color: white;
+
+ }
+
+ .potato>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .potato>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 10px;
+ }
+
+ /* --------------------------------------------------------------THIRD ROW 3RD IMAGE AVOCADO----------------------------------------------------- */
+ .avocado {
+     margin-left: -100px;
+     text-align: center;
+     width: 310px;
+     background-color: white;
+
+ }
+
+ .avocado>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .avocado>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 10px;
+
+ }
+
+ .third-row {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 150px;
+     margin-top: 50px;
+     margin-bottom: 150px;
+ }
+
+ /* ------------------------------------------------------------------3rd ROW FINISHED------------------------------------------------------------ */
+ /* -----------------------------------------------------------------PRODUCT CATEGORIES----------------------------------------------------------- */
+
+ .colors {
+     color: orangered;
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .details>h1 {
+     margin-left: 75px;
+     margin-top: 50px;
+     font-size: 30px;
+ }
+
+
+
+ /* --------------------------------------------------------------PRODUCT CATEGORIES CLOSED------------------------------------------------------- */
+ /* -------------------------------------------------------------------VEGETABLES OPEN------------------------------------------------------------ */
+ .vegetables {
+     text-align: center;
+     width: 310px;
+     background-color: white;
+     padding: 20px;
+
+
+ }
+
+ .vegetables>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .vegetables>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 10px;
+ }
+
+ /* -------------------------------------------------------------VEGETABLES CLOSED---------------------------------------------------------------- */
+
+
+
+ /* --------------------------------------------------------------FRESH FRUITS OPEN--------------------------------------------------------------- */
+ .fresh-fruits {
+     text-align: center;
+     width: 310px;
+     background-color: white;
+     padding: 20px;
+ }
+
+ .fresh-fruits>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .fresh-fruits>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 15px;
+ }
+
+ /* ---------------------------------------------------------FRESH FRUITS CLOSED------------------------------------------------------------------ */
+
+
+
+ /* ----------------------------------------------------------DAIRY PRODUCTS OPEN----------------------------------------------------------------- */
+ .dairy-products {
+     text-align: center;
+     width: 310px;
+     background-color: white;
+     padding: 20px;
+
+ }
+
+ .dairy-products>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .dairy-products>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 10px;
+ }
+
+ /* --------------------------------------------------------DAIRY PRODUCTS CLOSED----------------------------------------------------------------- */
+
+
+
+ /* ----------------------------------------------------------MEAT PRODUCTS OPEN------------------------------------------------------------------ */
+
+ .meat {
+     text-align: center;
+     width: 310px;
+     background-color: white;
+     padding: 20px;
+
+ }
+
+ .meat>img {
+     width: 250px;
+     height: 250px;
+ }
+
+ .meat>button {
+     width: 100px;
+     text-align: center;
+     padding: 5px 10px;
+ }
+
+ .fourth-row {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     margin-top: -100px;
+     margin-bottom: 100px;
+     padding: 10px;
+     margin-left: 60px;
+ }
+
+ /* -------------------------------------------------------------MEAT PRODUCTS CLOSED------------------------------------------------------------- */
+ /* ---------------------------------------------------------------CUSTOMER'S REVIEW-------------------------------------------------------------- */
+ .review {
+     color: orangered;
+     font-size: 30px;
+ }
+
+ .cus {
+     text-align: center;
+     margin-top: -75px;
+     font-size: 15px;
+     margin-left: 50px;
+     font-size: 20px;
+ }
+
+ /* -------------------------------------------------------------CUSTOMER'S REVIEW CLOSED----------------------------------------------------------*/
+
+
+ /* --------------------------------------------------------------------CUSTOMERS 1----------------------------------------------------------------*/
+ .girlone>img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+
+ .girlone {
+     width: 300px;
+     height: 250px;
+     text-align: center;
+     background-color: white;
+ }
+
+ .girlone>h1 {
+     color: rgb(99, 99, 194);
+ }
+
+ /* -----------------------------------------------------------CUSTOMERS 1 FINISHED---------------------------------------------------------------*/
+
+
+
+ /* ------------------------------------------------------------------CUSTOMERS 2------------------------------------------------------------------*/
+
+ .boyone>img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+
+ .boyone {
+     width: 300px;
+     height: 250px;
+     text-align: center;
+     background-color: white;
+ }
+
+ .boyone>h1 {
+     color: rgb(99, 99, 194);
+     background-color: white;
+ }
+
+ /* ----------------------------------------------------------------CUSTOMERS 2 FINISHED-----------------------------------------------------------*/
+
+
+
+ /* ---------------------------------------------------------------------CUSTOMERS 3 --------------------------------------------------------------*/
+
+ .girltwo>img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+
+ .girltwo {
+     width: 300px;
+     height: 250px;
+     text-align: center;
+     background-color: white;
+ }
+
+ .girltwo>h1 {
+     color: rgb(99, 99, 194);
+     background-color: white;
+
+ }
+
+ /* ----------------------------------------------------------------CUSTOMERS 3 FINISHED-----------------------------------------------------------*/
+ .fifthrow {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     padding: 25px;
+ }
+
+ #grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 200px;
+     margin-bottom: 25px;
+     padding: 50px;
+
+ }
+
+ /* --------------------------------------------------------------CUSTOMER'S REVIEW FINISHED--------------------------------------------------------*/
+ .blog {
+     text-align: center;
+     font-size: 25px;
+ }
+
+ .blogs {
+     color: orangered;
+     font-size: 35px;
+ }
+
+ /*-----------------------------------------------------------------------OUR BLOGS  1------------------------------------------------------------ */
+
+ .blog-one>img {
+     width: 350px;
+     height: 200px;
+ }
+
+ .blog-one {
+     width: 350px;
+     background-color: white;
+     margin-bottom: 5px;
+
+ }
+
+ .calender {
+     margin-left: 230px;
+     margin-top: -20px;
+ }
+
+ /*--------------------------------------------------------------------OUR BLOGS  1 COMPLETED----------------------------------------------------- */
+
+
+ /*-------------------------------------------------------------------------OUR BLOGS  2---------------------------------------------------------- */
+
+ .blog-two>img {
+     width: 350px;
+     height: 200px;
+ }
+
+ .blog-two {
+     width: 350px;
+     background-color: white;
+     margin-bottom: 5px;
+ }
+
+ .calender-one {
+     margin-left: 230px;
+     margin-top: -20px;
+ }
+
+ /*---------------------------------------------------------------OUR BLOGS  2 completed---------------------------------------------------------- */
+
+
+ /*---------------------------------------------------------------------OUR BLOGS  3-------------------------------------------------------------- */
+
+ .blog-three>img {
+     width: 350px;
+     height: 200px;
+ }
+
+ .blog-three {
+     width: 350px;
+     margin-bottom: 5px;
+     background-color: white;
+ }
+
+ .calender-two {
+     margin-left: 230px;
+     margin-top: -20px;
+ }
+
+
+
+
+ /*-----------------------------------------------------------------OUR BLOGS  3 completed-------------------------------------------------------- */
+
+ .blog-section {
+     margin-left: 150px;
+     padding: 50px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-bottom: 50px;
+ }
+
+ /*-------------------------------------------------------------------BLOGS completed------------------------------------------------------------- */
+
+
+ /*----------------------------------------------------------------------READ MORE 1-------------------------------------------------------------- */
+
+ .readmore {
+     width: 350px;
+     height: 300px;
+     background-color: white;
+     padding: 20px;
+     text-align: left;
+     margin-bottom: 25px;
+ }
+
+ .readmore>button {
+     width: 100px;
+     height: 35px;
+     margin-top:90px;
+ }
+ .readmore>h1{
+    margin-top: 50px;
+ }
+
+ /*-----------------------------------------------------------------READ MORE 1 COMPLETED--------------------------------------------------------- */
+
+ /*-----------------------------------------------------------------------READ MORE 2------------------------------------------------------------- */
+
+ .readmore-two {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.readmore-two>button {
+    width: 100px;
+    height: 35px;
+    margin-top: 90px;
+}
+.readmore-two>h1{
+    margin-top: 50px;
+}
+
+ /*------------------------------------------------------------READ MORE 2 COMPLETED-------------------------------------------------------------- */
+
+ /*------------------------------------------------------------------READ MORE 3------------------------------------------------------------------ */
+
+ .readmore-three {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.readmore-three>button {
+    width: 100px;
+    height: 35px;
+    margin-top:90px;
+}
+.readmore-three>h1{
+    margin-top: 50px;
+}
+/* magic========================================================================================================================================== */
+.totalreadmore{
+    margin-left: 150px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -155px;
+
+}
+
+ /*---------------------------------------------------------------READ MORE 3 COMPLTED------------------------------------------------------------ */
+
+
+  /*----------------------------------------------------------------FOOTER STARTS HERE------------------------------------------------------------ */
+
+  .logoone{
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -20px;
+  }
+  .logoone>.icon{
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .logoone>p{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+
+  .contact>h1{
+    color: blue;
+  }
+  .contact{
+    width: 200px;
+    margin-left: 75px;
+  }
+  .rightarrow>h1{
+    color: blue;
+  }
+  .rightarrow{
+    margin-left: 50px;
+  }
+  .news>h1{
+    color: blue;
+  }
+  .news>input{
+    width: 200px;
+    height: 30px;
+  }
+  .news>button{
+    width: 100px;
+    height: 30px;
+    border: 3px solid black;
+  }
+  .mainfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 100px;
+    padding: 10px;
+  }
+.author{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
