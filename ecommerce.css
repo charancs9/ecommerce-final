@@ -70,7 +70,6 @@
  
  .center>button:hover{
     color: orange;
-    border-bottom: 1px solid black;
  }
  .color {
      color: orangered;
