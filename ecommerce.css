@@ -98,6 +98,10 @@
      padding: 5px 10px;
 
  }
+ .firstimage>button:hover{
+    color: orange;
+
+ }
 
  .fresh {
      font-size: 20px;
@@ -132,7 +136,10 @@
      margin-top: 5px;
      padding: 5px 10px;
  }
+ .second-image>button:hover{
+    color: orange;
 
+ }
  .second-image {
      margin-left: 50px;
 
@@ -155,6 +162,10 @@
      padding: 5px 10px;
  }
 
+ .third-image>button:hover{
+    color: orange;
+
+ }
  .third-image {
      text-align: center;
      width: 300px;
@@ -199,6 +210,11 @@
 
  }
 
+ .cabbage>button:hover{
+    color: orange;
+
+ }
+
  .cabbage {
      background-color: white;
      margin-right: 75px;
@@ -223,6 +239,10 @@
 
  }
 
+ .orange>button:hover{
+    color: orange;
+ }
+
  .orange {
      text-align: center;
      width: 300px;
@@ -243,6 +263,10 @@
      text-align: center;
      padding: 5px 10px;
 
+ }
+
+ .onions>button:hover{
+    color: orange;
  }
 
  .onions {
@@ -293,6 +317,11 @@
      padding: 5px 10px;
  }
 
+
+ .lemon>button:hover{
+    color: orange;
+ }
+
  /* ------------------------------------------------------------THIRD ROW 2ND IMAGE POTATO---------------------------------------------------------*/
  .potato {
 
@@ -314,6 +343,10 @@
      width: 100px;
      text-align: center;
      padding: 5px 10px;
+ }
+
+ .potato>button:hover{
+    color: orange;
  }
 
  /* --------------------------------------------------------------THIRD ROW 3RD IMAGE AVOCADO----------------------------------------------------- */
@@ -338,6 +371,10 @@
      text-align: center;
      padding: 5px 10px;
 
+ }
+
+ .avocado>button:hover{
+    color: orange;
  }
 
  .third-row {
@@ -390,6 +427,10 @@
      padding: 5px 10px;
  }
 
+ .vegetables>button:hover{
+    color: orange;
+ }
+
  /* -------------------------------------------------------------VEGETABLES CLOSED---------------------------------------------------------------- */
 
 
@@ -416,6 +457,9 @@
      padding: 5px 15px;
  }
 
+ .fresh-fruits>button:hover{
+    color: orange;
+ }
  /* ---------------------------------------------------------FRESH FRUITS CLOSED------------------------------------------------------------------ */
 
 
@@ -441,6 +485,10 @@
      width: 100px;
      text-align: center;
      padding: 5px 10px;
+ }
+
+ .dairy-products>button:hover{
+    color: orange;
  }
 
  /* --------------------------------------------------------DAIRY PRODUCTS CLOSED----------------------------------------------------------------- */
@@ -469,6 +517,10 @@
      width: 100px;
      text-align: center;
      padding: 5px 10px;
+ }
+
+ .meat>button:hover{
+    color: orange;
  }
 
  .fourth-row {
@@ -694,6 +746,10 @@
      height: 35px;
      margin-top:90px;
  }
+
+ .readmore>button:hover{
+    color: orange;
+ }
  .readmore>h1{
     margin-top: 50px;
  }
@@ -716,6 +772,11 @@
     height: 35px;
     margin-top: 90px;
 }
+
+.readmore-two>button:hover{
+    color: orange;
+}
+
 .readmore-two>h1{
     margin-top: 50px;
 }
@@ -738,6 +799,11 @@
     height: 35px;
     margin-top:90px;
 }
+
+.readmore-three>button:hover{
+    color: orange;
+}
+
 .readmore-three>h1{
     margin-top: 50px;
 }
@@ -795,7 +861,9 @@
   .news>button{
     width: 100px;
     height: 30px;
-    border: 3px solid black;
+  }
+  .news>button:hover{
+    color: orange;
   }
   .mainfooter{
     display: grid;
