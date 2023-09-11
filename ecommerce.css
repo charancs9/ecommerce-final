@@ -84,7 +84,9 @@
      padding: 10px;
      margin-left: 80px;
      background-color: white;
-
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
  }
 
  .firstimage>button {
@@ -109,6 +111,9 @@
      width: 300px;
      padding: 10px;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
  }
 
@@ -136,6 +141,7 @@
  .pay {
      font-size: 25px;
      margin-left: 25px;
+     
  }
 
  .dol {
@@ -153,6 +159,9 @@
      width: 300px;
      padding: 10px;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
  }
 
  .firstrow {
@@ -194,6 +203,9 @@
      margin-right: 75px;
      text-align: center;
      margin-left: -25px;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
  }
 
@@ -215,8 +227,8 @@
      width: 300px;
      background-color: white;
      margin-left: 2px;
-
-
+     outline: 8px solid white;
+     border: 1px solid silver;
  }
 
  /* ---------------------------------------------------------------2ND ROW 3RD IMAGE-------------------------------------------------------------- */
@@ -241,6 +253,9 @@
  .onions {
      border: 0px;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
  }
 
  .secondrow {
@@ -259,6 +274,9 @@
      margin-left: 60px;
      background-color: white;
      padding: 20px;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
  }
 
@@ -280,6 +298,9 @@
      text-align: center;
      width: 310px;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
  }
 
@@ -300,6 +321,9 @@
      text-align: center;
      width: 310px;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
  }
 
@@ -347,6 +371,9 @@
      width: 310px;
      background-color: white;
      padding: 20px;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
 
  }
@@ -372,6 +399,9 @@
      width: 310px;
      background-color: white;
      padding: 20px;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
  }
 
  .fresh-fruits>img {
@@ -395,6 +425,9 @@
      width: 310px;
      background-color: white;
      padding: 20px;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
  }
 
@@ -420,6 +453,9 @@
      width: 310px;
      background-color: white;
      padding: 20px;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
 
  }
 
@@ -473,6 +509,9 @@
      height: 250px;
      text-align: center;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
  }
 
  .girlone>h1 {
@@ -496,6 +535,9 @@
      height: 250px;
      text-align: center;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
  }
 
  .boyone>h1 {
@@ -520,6 +562,9 @@
      height: 250px;
      text-align: center;
      background-color: white;
+     outline: 8px solid white;
+     border: 1px solid silver;
+    
  }
 
  .girltwo>h1 {
@@ -541,7 +586,6 @@
      margin-left: 200px;
      margin-bottom: 25px;
      padding: 50px;
-
  }
 
  /* --------------------------------------------------------------CUSTOMER'S REVIEW FINISHED--------------------------------------------------------*/
@@ -708,7 +752,7 @@
  /*---------------------------------------------------------------READ MORE 3 COMPLTED------------------------------------------------------------ */
 
 
-  /*----------------------------------------------------------------FOOTER STARTS HERE------------------------------------------------------------ */
+ /*----------------------------------------------------------------FOOTER STARTS HERE------------------------------------------------------------- */
 
   .logoone{
     height: 150px;
@@ -726,8 +770,6 @@
     text-align: center;
     margin-left: 50px;
   }
-
-
   .contact>h1{
     color: blue;
   }
@@ -765,4 +807,15 @@
     width: 100%;
     text-align: center;
     padding: 15px;
+}
+
+/* --------------------------------------------------------MEDIA QUERY --------------------------------------------------------------------------- */
+
+@media only screen and (min-width:400px) and (max-width:652px){
+    .banner>img{
+        width: 1000px;
+    }
+    .main-content h1{
+        margin-left: 100px;
+    }
 }
