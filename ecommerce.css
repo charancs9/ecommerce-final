@@ -10,6 +10,9 @@
  body {
      background-color: rgb(233, 233, 233);
  }
+ nav a:hover{
+    color: orange;
+ }
 
  .main {
      display: grid;
@@ -536,8 +539,9 @@
 
  /* -------------------------------------------------------------MEAT PRODUCTS CLOSED------------------------------------------------------------- */
  /* ---------------------------------------------------------------CUSTOMER'S REVIEW-------------------------------------------------------------- */
- .review {
+ #review {
     color: white;
+    height: 500px;
     background-color: orange;
     clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
  }
@@ -851,8 +855,9 @@
   .rightarrow>h1{
     color: blue;
   }
-  .rightarrow{
-    margin-left: 50px;
+  #arrow{
+    position: relative;
+    top: 17px;
   }
   .news>h1{
     color: blue;
@@ -880,5 +885,9 @@
     width: 100%;
     text-align: center;
     padding: 15px;
+}
+.rightarrow p:hover{
+    color: orange;
+    cursor: pointer;
 }
 
