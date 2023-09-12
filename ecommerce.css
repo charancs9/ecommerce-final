@@ -54,10 +54,6 @@
      top: -250px;
  }
 
- .content>h1 {
-     font-size: 35px;
- }
-
  .content>p {
      line-height: 25px;
      margin-top: 10px;
@@ -72,9 +68,12 @@
     color: orange;
  }
  .color {
-     color: orangered;
- }
-
+     color: white;
+     background-color: orange;
+     clip-path: polygon(100% 0, 96% 49%, 100% 99%, 0% 100%, 3% 48%, 0 0);
+     font-size: 25px;
+     text-align: center;
+    }
  .features {
      text-align: center;
      margin-top: -100px;
@@ -187,7 +186,10 @@
 
 
  .products-color {
-     color: orangered;
+     color: white;
+     background-color: orange;
+     clip-path: polygon(100% 0, 96% 49%, 100% 99%, 0% 100%, 3% 48%, 0 0);
+
  }
 
  .products-middle {
@@ -389,9 +391,9 @@
  /* -----------------------------------------------------------------PRODUCT CATEGORIES----------------------------------------------------------- */
 
  .colors {
-     color: orangered;
-     text-align: center;
-     font-size: 30px;
+     color: white;
+     background-color: orange;
+     clip-path: polygon(100% 0, 96% 49%, 100% 99%, 0% 100%, 3% 48%, 0 0);
  }
 
  .details>h1 {
@@ -535,8 +537,9 @@
  /* -------------------------------------------------------------MEAT PRODUCTS CLOSED------------------------------------------------------------- */
  /* ---------------------------------------------------------------CUSTOMER'S REVIEW-------------------------------------------------------------- */
  .review {
-     color: orangered;
-     font-size: 30px;
+    color: white;
+    background-color: orange;
+    clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
  }
 
  .cus {
@@ -649,10 +652,10 @@
  }
 
  .blogs {
-     color: orangered;
-     font-size: 35px;
+    color: white;
+    background-color: orange;
+    clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
  }
-
  /*-----------------------------------------------------------------------OUR BLOGS  1------------------------------------------------------------ */
 
  .blog-one>img {
