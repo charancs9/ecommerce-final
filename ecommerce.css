@@ -8,7 +8,7 @@
  }
 
  body {
-     background-color: rgb(172, 164, 164);
+     background-color:silver;
      
  }
  nav a:hover{
@@ -19,6 +19,11 @@
      display: grid;
      grid-template-columns: 1fr 5fr 1fr;
      margin-top: 50px;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+     background-color: white;
+     height: 50px;
  }
 
  .logo>h1 {
@@ -111,9 +116,6 @@
      margin-left: -10px;
  }
 
- .c {
-     margin-left: 25px;
- }
 
  /*---------------------------------------------------------------second-image --------------------------------------------------------------------*/
  .second-image {
@@ -130,9 +132,7 @@
      margin-left: 45px;
  }
 
- .d {
-     margin-left: 25px;
- }
+ 
 
  .second-image>button {
      width: 100px;
