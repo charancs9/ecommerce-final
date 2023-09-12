@@ -8,7 +8,8 @@
  }
 
  body {
-     background-color: rgb(233, 233, 233);
+     background-color: rgb(172, 164, 164);
+     
  }
  nav a:hover{
     color: orange;
