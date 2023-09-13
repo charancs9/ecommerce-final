@@ -89,11 +89,12 @@
     color: orange;
  }
  .color {
-     color: white;
-     background-color: orange;
-     clip-path: polygon(100% 0, 96% 49%, 100% 99%, 0% 100%, 3% 48%, 0 0);
-     font-size: 25px;
-     text-align: center;
+    color: white;
+    background-color: orange;
+    clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
+    border: 1px solid orange;
+    height: 10px;
+    padding: 10px 20px;
     }
  .features {
      text-align: center;
@@ -202,9 +203,12 @@
 
 
  .products-color {
-     color: white;
-     background-color: orange;
-     clip-path: polygon(100% 0, 96% 49%, 100% 99%, 0% 100%, 3% 48%, 0 0);
+    color: white;
+    background-color: orange;
+    clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
+    border: 1px solid orange;
+    height: 10px;
+    padding: 10px 20px;
 
  }
 
@@ -407,9 +411,12 @@
  /* -----------------------------------------------------------------PRODUCT CATEGORIES----------------------------------------------------------- */
 
  .colors {
-     color: white;
-     background-color: orange;
-     clip-path: polygon(100% 0, 96% 49%, 100% 99%, 0% 100%, 3% 48%, 0 0);
+    color: white;
+    background-color: orange;
+    clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
+    border: 1px solid orange;
+    height: 10px;
+    padding: 10px 20px;
  }
 
  .details>h1 {
@@ -554,9 +561,11 @@
  /* ---------------------------------------------------------------CUSTOMER'S REVIEW-------------------------------------------------------------- */
  #review {
     color: white;
-    height: 500px;
     background-color: orange;
     clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
+    border: 1px solid orange;
+    height: 10px;
+    padding: 10px 20px;
  }
 
  .cus {
@@ -672,10 +681,13 @@
      font-size: 25px;
  }
 
- .blogs {
+ .blogs{
     color: white;
     background-color: orange;
     clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 6% 47%, 0 0);
+    border: 1px solid orange;
+    height: 10px;
+    padding: 10px 20px;
  }
  /*-----------------------------------------------------------------------OUR BLOGS  1------------------------------------------------------------ */
 
